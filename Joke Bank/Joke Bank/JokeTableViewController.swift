@@ -36,5 +36,15 @@ class JokeTableViewController: UITableViewController {
 
         return cell
     }
+    
+    // WHen Someone taps on a cell
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        // Gets whatever item is tapped on
+        let joke = jokes[indexPath.row]
+        
+        // Will move to next viewController
+        performSegue(withIdentifier: "theJoke", sender: joke)
+    }
 
 }
