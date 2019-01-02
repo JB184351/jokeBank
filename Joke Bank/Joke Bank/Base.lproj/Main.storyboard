@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="1016.8" y="109.29535232383809"/>
         </scene>
-        <!--View Controller-->
+        <!--Joke View Controller-->
         <scene sceneID="kWW-5k-3nh">
             <objects>
-                <viewController id="oJ5-Vz-ukB" sceneMemberID="viewController">
+                <viewController id="oJ5-Vz-ukB" customClass="JokeViewController" customModule="Joke_Bank" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Hp-Fl-dvd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

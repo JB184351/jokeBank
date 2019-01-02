@@ -46,5 +46,12 @@ class JokeTableViewController: UITableViewController {
         // Will move to next viewController
         performSegue(withIdentifier: "theJoke", sender: joke)
     }
+    
+    // Code that happens before moving on to the JokeViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let jokeVC = segue.destination as? JokeViewController {
+            jokeVC.joke = "Hello!"
+        }
+    }
 
 }
