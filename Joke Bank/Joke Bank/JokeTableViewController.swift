@@ -41,16 +41,21 @@ class JokeTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         // Gets whatever item is tapped on
-        let joke = jokes[indexPath.row]
+        let selectedJoke = jokes[indexPath.row]
         
         // Will move to next viewController
-        performSegue(withIdentifier: "theJoke", sender: joke)
+        performSegue(withIdentifier: "theJoke", sender: selectedJoke)
     }
     
     // Code that happens before moving on to the JokeViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let jokeVC = segue.destination as? JokeViewController {
-            jokeVC.joke = "Hello!"
+            
+            if let selectedJoke = sender as? String {
+                jokeVC.joke = selectedJoke
+            }
+            
+            
         }
     }
 
