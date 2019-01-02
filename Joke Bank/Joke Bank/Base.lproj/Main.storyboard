@@ -51,13 +51,30 @@
                     <view key="view" contentMode="scaleToFill" id="1Hp-Fl-dvd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke Display" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tB-6U-pab">
+                                <rect key="frame" x="20" y="64" width="335" height="603"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5tB-6U-pab" firstAttribute="top" secondItem="gec-3d-uxu" secondAttribute="top" id="5qC-Fc-rOL"/>
+                            <constraint firstItem="5tB-6U-pab" firstAttribute="leading" secondItem="gec-3d-uxu" secondAttribute="leading" constant="20" id="ksq-sf-pWv"/>
+                            <constraint firstItem="gec-3d-uxu" firstAttribute="trailing" secondItem="5tB-6U-pab" secondAttribute="trailing" constant="20" id="sKi-bW-lxA"/>
+                            <constraint firstItem="gec-3d-uxu" firstAttribute="bottom" secondItem="5tB-6U-pab" secondAttribute="bottom" id="wSb-DV-Rnf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gec-3d-uxu"/>
                     </view>
+                    <connections>
+                        <outlet property="displayJoke" destination="5tB-6U-pab" id="ba2-By-zpL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNq-ON-TMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1910" y="109"/>
+            <point key="canvasLocation" x="1909.5999999999999" y="108.39580209895054"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LAd-f2-06g">
