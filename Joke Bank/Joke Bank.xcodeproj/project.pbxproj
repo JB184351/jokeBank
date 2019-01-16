@@ -13,6 +13,7 @@
 		305C5F1121DC148A00E230C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305C5F0F21DC148A00E230C2 /* LaunchScreen.storyboard */; };
 		305C5F1921DC168300E230C2 /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C5F1821DC168300E230C2 /* JokeTableViewController.swift */; };
 		305C5F1F21DC397A00E230C2 /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C5F1E21DC397A00E230C2 /* JokeViewController.swift */; };
+		30ACA58921EEBF8A00D06674 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ACA58821EEBF8A00D06674 /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		305C5F1221DC148A00E230C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		305C5F1821DC168300E230C2 /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
 		305C5F1E21DC397A00E230C2 /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		30ACA58821EEBF8A00D06674 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				305C5F0621DC148A00E230C2 /* AppDelegate.swift */,
 				305C5F1821DC168300E230C2 /* JokeTableViewController.swift */,
 				305C5F1E21DC397A00E230C2 /* JokeViewController.swift */,
+				30ACA58821EEBF8A00D06674 /* Joke.swift */,
 				305C5F0A21DC148A00E230C2 /* Main.storyboard */,
 				305C5F0D21DC148A00E230C2 /* Assets.xcassets */,
 				305C5F0F21DC148A00E230C2 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				305C5F1921DC168300E230C2 /* JokeTableViewController.swift in Sources */,
 				305C5F0721DC148A00E230C2 /* AppDelegate.swift in Sources */,
+				30ACA58921EEBF8A00D06674 /* Joke.swift in Sources */,
 				305C5F1F21DC397A00E230C2 /* JokeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
